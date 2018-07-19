@@ -14,5 +14,5 @@ function destructivelyRemoveFirstDriver(){
   drivers.shift("")
 }
 function apprenDriver(name){
-  
+  newDriver=drivers.slice();
 }
