@@ -12,4 +12,3 @@ function destructivelyRemoveLastDriver(){
 function destructivelyRemoveFirstDriver(){
   drivers.shift("")
 }
-const drivers = driversCopy.slice();
