@@ -31,3 +31,8 @@ function removeLastDriver(){
   newDriver.pop(name);
   return newDriver;
 }
+function removeFirstDriver(){
+  newDriver=drivers.slice();
+  newDriver.unshift(name);
+  return newDriver;
+}
